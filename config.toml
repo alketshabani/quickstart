@@ -57,16 +57,12 @@ staticDir = ["static", "../assets/others"]               # static directories
     url = "about"
     weight = 4
 
-  [[menu.main]]
-    identifier = "zh"
-    name = '<i class="fas fa-language fa-fw"></i>'
-    url = "https://hugo-loveit-zh.netlify.com"
-    weight = 5
+
 
 [params]
   version = "5.x"                                        # LoveIt theme version
   description = "LoveIt Theme Demo"                      # site description
-  keywords = ["XXXX", "Theme", "Hugo"]                   # site keywords
+  keywords = ["alketshabani", "Theme", "Hugo"]                   # site keywords
 
                                                       #### Home Page Info
   home_mode = "post"                                     # [post, other] home mode
@@ -117,13 +113,12 @@ staticDir = ["static", "../assets/others"]               # static directories
     email = ""
 
   [params.social]                                        # Social Info in home page
-    GitHub = "xxxx"
-    Linkedin = "xxxx"
-    Twitter = "xxxx"
+    GitHub = "alketshabani"
+    Linkedin = "alketshabani"
+
     #Instagram = "xxxx"
     #Email = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+  
     #Medium = "xxxx"
     #Gitlab = "xxxx"
     #Youtubelegacy = "xxxx"
@@ -176,10 +171,10 @@ staticDir = ["static", "../assets/others"]               # static directories
     #Thingiverse = "xxxx"
 
   [params.share]                                         # Social Share Links in post page
-    enable = true
-    Twitter = true
-    Facebook = true
-    Reddit = true
+    enable = false
+    #Twitter = true
+    #Facebook = true
+    #Reddit = true
     #Linkedin = true
     #Pinterest = true
     #HackerNews = true

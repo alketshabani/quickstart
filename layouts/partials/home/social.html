@@ -1,21 +1,10 @@
 {{ with .Site.Params.Social.Github }}
-    <a href="https://github.com/alketshabani" rel="me noopener noreffer" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a>
+    <a href="https://github.com/{{.}}" rel="me noopener noreffer" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.LinkedIn }}
     <a href="https://linkedin.com/in/{{.}}" rel="me noopener noreffer" target="_blank"><i class="fab fa-linkedin fa-fw"></i></a>
 {{ end }}
-{{ with .Site.Params.Social.Twitter }}
-    <a href="https://twitter.com/{{.}}" rel="me noopener noreffer" target="_blank"><i class="fab fa-twitter fa-fw"></i></a>
-{{ end }}
-{{ with .Site.Params.Social.Instagram }}
-    <a href="https://www.instagram.com/{{.}}/" rel="me noopener noreffer" target="_blank"><i class="fab fa-instagram fa-fw"></i></a>
-{{ end }}
-{{ with .Site.Params.Social.Facebook}}
-    <a href="https://facebook.com/{{.}}" rel="me noopener noreffer" target="_blank"><i class="fab fa-facebook fa-fw"></i></a>
-{{ end }}
-{{ with .Site.Params.Social.Telegram}}
-    <a href="https://t.me/{{.}}" rel="me noopener noreffer" target="_blank"><i class="fab fa-telegram-plane fa-fw"></i></a>
-{{ end }}
+
 {{ with .Site.Params.Social.Medium}}
     <a href="https://medium.com/{{.}}" rel="me noopener noreffer" target="_blank"><i class="fab fa-medium fa-fw"></i></a>
 {{ end }}
